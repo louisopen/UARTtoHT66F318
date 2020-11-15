@@ -1,21 +1,18 @@
-### UART with HT66F318 applications
+## â€»UART with HT66F318 applications
+Using the UART port(Same RS-485 port) access GPIO port, EEPROM(64bytes), ADC(8ch 12bits), PWM output(10bit), Capture, OLED display... via HT66F318 UART port.<br>
+å°ˆæ¡ˆåˆ©ç”¨PC or Raspberry Pi or Arduino è»Ÿä»¶ä¸»æ§ä¸‹é”UARTé€šè¨ŠæŒ‡ä»¤(Same RS-485 port)<br>
+ä»¥å­˜å–HT66F318 GPIO port, EEPROM(64bytes), ADC(8ch 12bits), PWM output(10bit), Capture, OLED display...<br>
 
-Using the UART port(Same RS-485 driver) access to HT66F318 GPIO port, EEPROM(64bytes), ADC(8ch 12bits), 
-PWM output(10bit), Capture, OLED display...
-±M®×§Q¥ÎPC or Raspberry Pi or Arduino ³n¥ó¥D±±¤U¹FUART³q°T«ü¥O(Same RS-485 driver)
-¥H¦s¨úHT66F318 GPIO port, EEPROM(64bytes), ADC(8ch 12bits), PWM output(10bit), Capture, OLED display...
+UART port baudrate setting 9600,N,8,1 ;Protocol format refer RS-485 Modbus & CRC-16 <br>
+é€šè¨Šå”è­°æ ¼å¼åƒç…§RS-485é€šè¨Šå”è­°æ ¼å¼(Modbus & CRC-16).<br>
+åœ¨MCUè³‡æºä¸è¶³æˆ–æ˜¯æ‡‰ç”¨è£ç½®ç¼ºä¹æ™‚, å³å¯ä»¥è‡ªå·±è£½é€ ç°¡å–®çš„æ‡‰ç”¨è£ç½®, Hostå³å¯é€éUARTä¾†æ§åˆ¶é€™å€‹è£ç½®.<br>
+Project Option: HXT; å¯é¸é …é‚„æœ‰(å°å¿ƒä½¿ç”¨)HXT,HIRC8M,HIRC12M,HIRC16M,LXT,LIRC<br>
 
-UART port baudrate setting 9600,N,8,1 ;Protocol format link as RS-485 Modbus & CRC-16 
-³q°T¨óÄ³®æ¦¡°Ñ·ÓRS-485³q°T¨óÄ³®æ¦¡(Modbus & CRC-16).
+HT66F318 28ssop with HT-IDE3000 V8.02 & e-Link & e-WriterPro<br>
+[HT66F318 Document](https://www.holtek.com.tw/search?key=ht66F318)<br>
+[IDE3000 & ICE & Writer](https://www.holtek.com.tw/ice)<br>
 
-¦bMCU¸ê·½¤£¨¬©Î¬OÀ³¥Î¸Ë¸m¯Ê¥F®É, §Y¥i¥H»s³y¦Û¤vªºÀ³¥Î¸Ë¸m, Host§Y¥i³z¹LUART¨Ó±±¨î³o­Ó¸Ë¸m.
-
-#### relevant information:
-
-Tools: HT66F318 28ssop with HT-IDE3000 V8.02 & e-Link
-
-Project Option: HXT (hi speed HXT);¥i¿ï¶µHXT,HIRC8M,HIRC12M,HIRC16M,LXT,LIRC
-
+### Relevant information
 * HT-IDE3000 V8.02
 ![Image](HT-IDE3000_version.jpg)
 * HOLTEK C Compiler V3/Assembly
@@ -25,13 +22,12 @@ Project Option: HXT (hi speed HXT);¥i¿ï¶µHXT,HIRC8M,HIRC12M,HIRC16M,LXT,LIRC
 ![Image](ProjectOption2.jpg)
 ![Image](ProjectOption3.jpg)
 ![Image](ProjectOption4.jpg)
-* HT66F318 28ssop Diagram
+* HT66F318 28ssop Schematic Diagram
 ![Image](CircuitDiagram.jpg)
 
+### How to test or used
+åˆ©ç”¨PCé€šè¨Šè»Ÿä»¶åšç‚ºä¸»å‹•å·¥å…·, å”è­°(9600,n,8,1), æ ¼å¼æ¯”ç…§RS-485æ ¼å¼(PCæŒ‡ä»¤CRCç”¨ A0 0Aä»£æ›¿, MCUåé¥‹çš„ç‚ºCRC-16)
 
-#### How to test or used:
-
-§Q¥ÎPC³q°T³n¥ó°µ¬°¥D°Ê¤u¨ã, ¨óÄ³(9600,n,8,1), ®æ¦¡¤ñ·ÓRS-485®æ¦¡(PC«ü¥OCRC¥Î A0 0A¥N´À, MCU¤ÏõXªº¬°CRC-16)
 * For Example: 
 * UART Formate(Get from MCU): 44 02 00 00 00 00 A0 0A   #Reture test
 MCU return: 44 02 04 55 AA 55 AA CRC CRC
