@@ -25,24 +25,24 @@ Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x
      00h     0024h     0024h    0001h      CODE               @INT1_ISR_code (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\INTERRUPT.OBJ)
      00h     0028h     0028h    0001h      CODE               @I2C_ISR_code (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\INTERRUPT.OBJ)
      00h     002ch     002fh    0004h      CODE               @UART_ISR_code (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\UART.OBJ)
-     00h     0030h     003fh    0010h      CODE               _main (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\MAIN.OBJ)
-     00h     0040h     004eh    000fh      CODE               _MuFunction0_ISR (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\INTERRUPT.OBJ)
-     00h     004fh     0056h    0008h      CODE               _MuFunction2_ISR (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\INTERRUPT.OBJ)
-     00h     0057h     005bh    0005h      CODE               _Timebase0_ISR (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\INTERRUPT.OBJ)
-     00h     005ch     0060h    0005h      CODE               _Timebase1_ISR (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\INTERRUPT.OBJ)
-     00h     0061h     0074h    0014h      CODE               _Task_500ms (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\SYS_INIT.OBJ)
-     00h     0075h     0080h    000ch      CODE               _TimerInitial (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\SYS_INIT.OBJ)
-     00h     0081h     0085h    0005h      CODE               _ReadyToHalt (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\SYS_INIT.OBJ)
-     00h     0086h     008eh    0009h      CODE               _GPIO_Init (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\SYS_INIT.OBJ)
-     00h     008fh     0097h    0009h      CODE               _WDT_ResetInit (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\SYS_INIT.OBJ)
-     00h     0098h     00b1h    001ah      CODE               _Ram_Init (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\SYS_INIT.OBJ)
-     00h     00b2h     00c0h    000fh      CODE               _PowerOn_Init (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\SYS_INIT.OBJ)
-     00h     00c1h     00d3h    0013h      CODE               _Uart_Init (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\UART.OBJ)
-     00h     00d4h     0138h    0065h      CODE               _UART_ISR (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\UART.OBJ)
-     00h     0139h     0170h    0038h      CODE               _calc_crc (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\UART.OBJ)
-     00h     0171h     019ah    002ah      CODE               _Uart_TXD_Send (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\UART.OBJ)
-     00h     019bh     01b6h    001ch      CODE               _Uart_RXD_Manage (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\UART.OBJ)
-     00h     01b7h     01bbh    0005h      CODE               _CROM2PROM (CROM2PROM)
+     00h     0030h     0040h    0011h      CODE               _main (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\MAIN.OBJ)
+     00h     0041h     004fh    000fh      CODE               _MuFunction0_ISR (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\INTERRUPT.OBJ)
+     00h     0050h     0057h    0008h      CODE               _MuFunction2_ISR (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\INTERRUPT.OBJ)
+     00h     0058h     005ch    0005h      CODE               _Timebase0_ISR (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\INTERRUPT.OBJ)
+     00h     005dh     0061h    0005h      CODE               _Timebase1_ISR (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\INTERRUPT.OBJ)
+     00h     0062h     0075h    0014h      CODE               _Task_500ms (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\SYS_INIT.OBJ)
+     00h     0076h     0081h    000ch      CODE               _TimerInitial (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\SYS_INIT.OBJ)
+     00h     0082h     008ah    0009h      CODE               _WDT_ResetInit (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\SYS_INIT.OBJ)
+     00h     008bh     008fh    0005h      CODE               _ReadyToHalt (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\SYS_INIT.OBJ)
+     00h     0090h     009dh    000eh      CODE               _GPIO_Init (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\SYS_INIT.OBJ)
+     00h     009eh     00a5h    0008h      CODE               _PowerOn_Init (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\SYS_INIT.OBJ)
+     00h     00a6h     00bfh    001ah      CODE               _Ram_Init (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\SYS_INIT.OBJ)
+     00h     00c0h     00d2h    0013h      CODE               _Uart_Init (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\UART.OBJ)
+     00h     00d3h     0137h    0065h      CODE               _UART_ISR (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\UART.OBJ)
+     00h     0138h     016fh    0038h      CODE               _calc_crc (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\UART.OBJ)
+     00h     0170h     0199h    002ah      CODE               _Uart_TXD_Send (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\UART.OBJ)
+     00h     019ah     01b5h    001ch      CODE               _Uart_RXD_Manage (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\UART.OBJ)
+     00h     01b6h     01bah    0005h      CODE               _CROM2PROM (CROM2PROM)
      00h     00a0h     00a1h    0002h      DATA     2.5       @HCCINIT0 (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\INTERRUPT.OBJ)
      00h     00a2h     00a3h    0002h      DATA     5         @HCCINIT0 (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\SYS_INIT.OBJ)
      00h     00a4h     00c2h    001fh      DATA     1.5161    @HCCINIT0 (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\UART.OBJ)
@@ -75,10 +75,10 @@ Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x
      Bank    Start     End      Length     Class    AvgIns    Name
      00h     00dfh     00dfh    0000h      LOCAL    0         @dummy (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\MAIN.OBJ)
      00h     00dfh     00dfh    0000h      LOCAL    0         _main (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\MAIN.OBJ)
-     00h     00dah     00dah    0000h      LOCAL    0         _PowerOn_Init (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\SYS_INIT.OBJ)
      00h     00dah     00dah    0000h      LOCAL    0         _Ram_Init (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\SYS_INIT.OBJ)
-     00h     00dah     00dah    0000h      LOCAL    0         _WDT_ResetInit (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\SYS_INIT.OBJ)
+     00h     00dah     00dah    0000h      LOCAL    0         _PowerOn_Init (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\SYS_INIT.OBJ)
      00h     00dah     00dah    0000h      LOCAL    0         _GPIO_Init (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\SYS_INIT.OBJ)
+     00h     00dah     00dah    0000h      LOCAL    0         _WDT_ResetInit (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\SYS_INIT.OBJ)
      00h     00dah     00dah    0000h      LOCAL    0         _Uart_Init (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\UART.OBJ)
      00h     00dah     00dah    0000h      LOCAL    0         _TimerInitial (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\SYS_INIT.OBJ)
      00h     00dfh     00dfh    0000h      LOCAL    0         _Uart_RXD_Manage (C:\ChipsGarden\醇法\MK8000\MK8000-Power PCB\UARTtoHT66F318\UARTwithMCU\UART.OBJ)
@@ -104,32 +104,32 @@ Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x
      Address            Public by Name
      0018h              _ADC_ISR
      0008h              _Comparator_ISR
-     01b8h              _Crom2Prom
-     01b7h              _Crom2PromNext
-     0086h              _GPIO_Init
+     01b7h              _Crom2Prom
+     01b6h              _Crom2PromNext
+     0090h              _GPIO_Init
      0028h              _I2C_ISR
      0004h              _INT0_ISR
      0024h              _INT1_ISR
      0002h              _Key_Scan
-     0040h              _MuFunction0_ISR
-     004fh              _MuFunction2_ISR
-     00b2h              _PowerOn_Init
-     0098h              _Ram_Init
-     0081h              _ReadyToHalt
-     0061h              _Task_500ms
-     0057h              _Timebase0_ISR
-     005ch              _Timebase1_ISR
-     0075h              _TimerInitial
-     00d4h              _UART_ISR
-     00c1h              _Uart_Init
-     019bh              _Uart_RXD_Manage
-     0171h              _Uart_TXD_Send
+     0041h              _MuFunction0_ISR
+     0050h              _MuFunction2_ISR
+     009eh              _PowerOn_Init
+     00a6h              _Ram_Init
+     008bh              _ReadyToHalt
+     0062h              _Task_500ms
+     0058h              _Timebase0_ISR
+     005dh              _Timebase1_ISR
+     0076h              _TimerInitial
+     00d3h              _UART_ISR
+     00c0h              _Uart_Init
+     019ah              _Uart_RXD_Manage
+     0170h              _Uart_TXD_Send
      00ddh              _Uart_TXD_Send_2
      0010h              _Uart_off
-     008fh              _WDT_ResetInit
+     0082h              _WDT_ResetInit
      00a7h              _array_uart_rxbuff
      00afh              _array_uart_txbuff
-     0139h              _calc_crc
+     0138h              _calc_crc
      00dah              _calc_crc_2
      00a3h              _count_2sec
      00a1h              _interrupt_flag
@@ -175,29 +175,29 @@ Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x
      0024h              _INT1_ISR
      0028h              _I2C_ISR
      0030h              _main
-     0040h              _MuFunction0_ISR
-     004fh              _MuFunction2_ISR
-     0057h              _Timebase0_ISR
-     005ch              _Timebase1_ISR
-     0061h              _Task_500ms
-     0075h              _TimerInitial
-     0081h              _ReadyToHalt
-     0086h              _GPIO_Init
-     008fh              _WDT_ResetInit
-     0098h              _Ram_Init
+     0041h              _MuFunction0_ISR
+     0050h              _MuFunction2_ISR
+     0058h              _Timebase0_ISR
+     005dh              _Timebase1_ISR
+     0062h              _Task_500ms
+     0076h              _TimerInitial
+     0082h              _WDT_ResetInit
+     008bh              _ReadyToHalt
+     0090h              _GPIO_Init
+     009eh              _PowerOn_Init
      00a0h              _isr_temp0
      00a1h              _interrupt_flag
      00a2h              _system_flag
      00a3h              _count_2sec
      00a4h              _reg_crc
+     00a6h              _Ram_Init
      00a6h              _uart_flag
      00a7h              _array_uart_rxbuff
      00afh              _array_uart_txbuff
-     00b2h              _PowerOn_Init
      00bfh              _tx_guide
      00c0h              _rx_guide
+     00c0h              _Uart_Init
      00c1h              _tx_index
-     00c1h              _Uart_Init
      00c2h              _rx_watchdog
      00c3h              ra
      00c4h              rb
@@ -216,8 +216,8 @@ Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x
      00d1h              r220
      00d2h              r12c
      00d3h              r22c
+     00d3h              _UART_ISR
      00d4h              r32c
-     00d4h              _UART_ISR
      00d5h              r42c
      00d6h              r52c
      00d7h              r62c
@@ -225,16 +225,16 @@ Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x
      00d9h              ra2c
      00dah              _calc_crc_2
      00ddh              _Uart_TXD_Send_2
-     0139h              _calc_crc
-     0171h              _Uart_TXD_Send
-     019bh              _Uart_RXD_Manage
-     01b7h              _Crom2PromNext
-     01b8h              _Crom2Prom
+     0138h              _calc_crc
+     0170h              _Uart_TXD_Send
+     019ah              _Uart_RXD_Manage
+     01b6h              _Crom2PromNext
+     01b7h              _Crom2Prom
 
 
 ROM Usage Statistics
      Size      Used     Percentage
-     1000h     01adh    10%
+     1000h     01ach    10%
 
 RAM Usage Statistics
     Bank      Size      Used     Percentage
@@ -253,10 +253,10 @@ _UART_ISR: 1
 Call Tree
     @dummy
         _main (0)
+            _Ram_Init (1)
             _PowerOn_Init (1)
-                _Ram_Init (2)
-            _WDT_ResetInit (1)
                 _GPIO_Init (2)
+            _WDT_ResetInit (1)
                 _Uart_Init (2)
                 _TimerInitial (2)
             _Uart_RXD_Manage (1)
