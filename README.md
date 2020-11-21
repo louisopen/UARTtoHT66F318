@@ -32,6 +32,7 @@ LICR (Low speed internal RC for TB0/TB1); 可選項有:LXT(32.768Khz),LIRC(32Khz)<br
 ![Image](ProjectOption4.jpg)
 * HT66F318 28ssop Schematic Diagram
 ![Image](CircuitDiagram.jpg)
+![Image](MCUdiagram.jpg)
 
 ### How to test or used
 利用PC通訊軟件做為主動工具, 協議(9600,n,8,1), 格式比照RS-485格式(PC指令CRC用 A0 0A代替, MCU反饋的為CRC-16)
